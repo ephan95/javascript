@@ -3,8 +3,8 @@
 let userName = "Brad";
 userName = "Jenna";
 
-function getUserNameLength() {
-  return userName.length;
+function getUserNameLength(name) {
+  return name.length;
 }
 
 console.log(getUserNameLength(userName) > 4);
@@ -12,8 +12,8 @@ console.log(getUserNameLength(userName) > 4);
 
 // 2
 
-function isString(inp) {
-  return typeof inp === "string";
+function isString(input) {
+  return typeof input === "string";
 }
 
 console.log(isString("Hello"));
