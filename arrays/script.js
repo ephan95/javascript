@@ -29,10 +29,9 @@ console.log(fruits);
 
 function sumOfCharacters(array) {
   let count = 0;
-  let characters = array.filter((item) => typeof item === "string");
-  let string = characters.join("");
+  let characters = array.filter((item) => typeof item === "string").join("");
 
-  for (let i = 0; i < string.length; i++) {
+  for (let i = 0; i < characters.length; i++) {
     count++;
   }
   return count;
