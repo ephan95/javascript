@@ -21,3 +21,25 @@ console.log(oddNumbers(10, 33));
 
 console.log(oddNumbers(9, 12));
 // result should be: 9,11
+
+// 2
+
+function charCount(word, letter) {
+  let count = 0;
+
+  for (let i = 0; i < word.length; i++) {
+    if (word.charAt(i) === letter) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(charCount("hello", "l"));
+// result should be: 2
+
+console.log(charCount("mama", "m"));
+// result should be: 2
+
+console.log(charCount("Resümee", "e"));
+// result should be: 3
